@@ -1,0 +1,4 @@
+import re
+regex = re.compile('th.s')
+l = ['this', 'is', 'just', 'a', 'test']
+matches = [string for string in l if re.match(regex, string)]
